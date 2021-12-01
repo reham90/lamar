@@ -19,7 +19,7 @@
      padding-left: 7px;
 }
  html[dir="rtl"] .language i{
-     padding-right: 7px;
+     padding-right: 5px;
      padding-left: 0 !important;
 }
  html[dir="rtl"] .nav-nav ul li{
@@ -89,9 +89,13 @@
  html[dir="rtl"] .feature-text{
      margin-right: 14px;
 }
+ html[dir="rtl"] .newsletter{
+     background-image: url(../images/newsletter-bg.png);
+ }
  html[dir="rtl"] .newsletter-input-icon{
      right: 23px;
 }
+
  html[dir="rtl"] .newsletter-input{
      padding-right: 53px;
 }
@@ -178,7 +182,8 @@
      padding-right: 7px;
 }
  html[dir="ltr"] .language i{
-     padding-right: 0;
+     
+     padding-left: 5px;
 }
  html[dir="ltr"] .nav-nav ul li{
      float: left;
@@ -247,6 +252,9 @@
  html[dir="ltr"] .feature-text{
      margin-left: 14px;
 }
+html[dir="ltr"] .newsletter{
+     background-image: url(../images/newsletter-bg-2.png);
+ }
  html[dir="ltr"] .newsletter-btn{
      margin-left: 6px;
 }
@@ -421,7 +429,7 @@
      list-style: none;
 }
  .icon{
-     font-size: 22px;
+     font-size: 20px;
      color: rgb(33, 33, 33);
      transition: 0.5s;
 }
@@ -536,13 +544,14 @@
      color: var(--theme-color);
 }
  .language i{
-     font-size: 11px !important;
+     font-size: 7px !important;
+     color: #616161;
 }
  .language-2{
      display: none;
 }
  .down-arrow{
-     font-size: 10px;
+     font-size: 7px;
 }
  .up-arrow{
      font-size: 10px;
@@ -691,7 +700,8 @@
      position: absolute;
      z-index: 999;
      font-size: 16px;
-     top: -88px;
+     top: -89px;
+     font-weight: bold;
 }
  .nav-list{
      padding: 0;
@@ -756,7 +766,7 @@
 }
  .small-banners{
      display: grid;
-     grid-template-columns: auto auto;
+     grid-template-columns:repeat(2,auto);
      grid-gap: 30px;
      transition: 0.5s;
      margin-bottom: 27px;
@@ -768,7 +778,7 @@
      transition: 0.5s;
 }
  .banner-block img{
-     height: 304px;
+     height: 330px;
 }
 /*/
  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -1018,7 +1028,7 @@
  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 /*/
  .newsletter{
-     background-image: url(../images/newsletter-bg.png);
+    
      background-repeat: no-repeat;
      background-size: cover;
      padding: 88px 0 92px;
@@ -1032,7 +1042,7 @@
      font-size: 30px;
      color: #000;
      font-weight: bold;
-     margin: 0 0 19px;
+     margin: 0 0 15px;
 }
  .news-slogen{
      font-size: 26px;
@@ -1099,7 +1109,7 @@
  .footer-content{
      display: flex;
      justify-content: space-between;
-     padding-bottom: 73px;
+     padding-bottom: 43px;
 }
  .footer-logo{
      margin-bottom: 31px;
@@ -1114,7 +1124,7 @@
 }
  .social-icons i{
      color: rgb(83, 83, 83);
-     font-size: 20px;
+     font-size: 15px;
      transition: 0.5s;
 }
  .social-icons i:hover{
@@ -1200,12 +1210,12 @@
  @media only screen and (max-width: 991px) {
      .nav-toggle {
          position: absolute;
-         top: 57px;
+         top: 44px;
          cursor: pointer;
     }
      .nav-toggle span{
          cursor: pointer;
-         font-size: 22px;
+         font-size: 20px;
          color: rgb(33, 33, 33);
          position: absolute;
          content: "";
@@ -1217,7 +1227,7 @@
     }
      .search-in-mobile{
          position: absolute;
-         top: 59px;
+         top: 46px;
     }
      .search-box{
          margin: 0 15px;
@@ -1377,9 +1387,7 @@
      .feature-block{
          display: block;
     }
-     .newsletter-input-icon{
-         top:36%;
-    }
+    
      .feature-icon{
          display: flex;
          justify-content: center;
@@ -1403,27 +1411,42 @@
      .features .owl-dots{
          display: block;
     }
+    .logo{
+        width: 100px;
+    }
      .newsletter-content{
          flex-wrap: wrap;
          justify-content: center;
+    }
+    
+    .newsletter-btn{
+        margin-top: 15px;
     }
      .news-title{
          font-size: 22px;
          text-align: center;
          margin: 0 0 10px;
-         color: #fff;
+         
+    }
+    .newsletter{
+        background-position: center;
     }
      .news-slogen{
          font-size: 17px;
          text-align: center;
          margin-bottom: 15px;
     }
+    
      .news-input{
          flex-wrap: wrap;
     }
+    .newsletter-input-field{
+        width: 100%;
+    }
      .newsletter-input{
-         width: 335px;
-         margin-bottom: 15px;
+         width: 100%;
+        
+    
     }
      .news-button{
          display: flex;
@@ -1494,12 +1517,10 @@
          width: 100%;
          margin-left: 0;
     }
-     .nav-toggle i{
+     .nav-toggle span{
          display: block;
     }
-     .product-image{
-         padding: 15px;
-    }
+     
      .first-product-carousel{
          margin-bottom: 35px;
     }
@@ -1527,9 +1548,13 @@
      .language-2 .dropdown-content a{
          margin: 10px 15px ;
     }
+    .down-arrow{
+        font-size: 10px;
+    }
      .nav-dropdown li{
          margin-bottom: 0;
     }
+    
      .menu-link .up-arrow{
          display: none;
     }

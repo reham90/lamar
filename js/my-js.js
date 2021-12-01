@@ -159,7 +159,7 @@ $(document).ready(function() {
         navText: ["<span class='lnr lnr-chevron-right right-arrow'></span>", "<span class='lnr lnr-chevron-left left-arrow'></span>"],
         responsive: {
             0: {
-                autoplay: true,
+                autoplay: false,
                 margin: 15,
                 items: 2
             },
