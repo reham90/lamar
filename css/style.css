@@ -284,7 +284,7 @@ html[dir="ltr"] .newsletter{
  @media only screen and (max-width: 991px) {
      html[dir="ltr"] .search-in-mobile{
          left:58px;
-         top: 49px;
+        
     }
     
      html[dir="ltr"] .cart-section{
@@ -334,9 +334,7 @@ html[dir="ltr"] .newsletter{
          width: 222px !important;
          margin-left: 98px !important;
     }
-    html[dir="ltr"] .nav-toggle{
-        top: 47px;
-    }
+    
 }
 /*****************************************************************************************************************************************/
  *{
@@ -1259,6 +1257,7 @@ html[dir="ltr"] .newsletter{
     }
      .cart-section{
          position: absolute;
+         padding-top: 5px;
     }
      .cart-section .icon:hover{
          color: var(--theme-color);
