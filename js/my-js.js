@@ -200,12 +200,12 @@ $(document).ready(function() {
             0: {
                 autoplay: true,
                 margin: 15,
-                items: 1
+                items: 2
             },
             600: {
                 autoplay: false,
                 margin: 30,
-                items: 1
+                items: 2
             },
             1200: {
                 autoplay: false,

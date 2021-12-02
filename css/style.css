@@ -106,7 +106,7 @@
      padding-right: 24px;
 }
  html[dir="rtl"] .social-icons li{
-     margin-left: 20px;
+     margin-left: 35px;
 }
  html[dir="rtl"] .social-icons li:last-child{
      margin-left: 0;
@@ -276,7 +276,7 @@ html[dir="ltr"] .newsletter{
      font-size: 13px;
 }
  html[dir="ltr"] .social-icons li{
-     margin-right: 20px;
+     margin-right: 35px;
 }
  html[dir="ltr"] .social-icons li:last-child{
      margin-right: 0;
@@ -284,7 +284,7 @@ html[dir="ltr"] .newsletter{
  @media only screen and (max-width: 991px) {
      html[dir="ltr"] .search-in-mobile{
          left:58px;
-         top: 43px;
+         top: 49px;
     }
     
      html[dir="ltr"] .cart-section{
@@ -335,7 +335,7 @@ html[dir="ltr"] .newsletter{
          margin-left: 98px !important;
     }
     html[dir="ltr"] .nav-toggle{
-        top:42px;
+        top: 47px;
     }
 }
 /*****************************************************************************************************************************************/
@@ -410,6 +410,7 @@ html[dir="ltr"] .newsletter{
      background: transparent !important;
      color: #fff !important;
      border: none;
+     line-height: 1;
 }
  .search-box {
      width: 100%;
@@ -421,9 +422,11 @@ html[dir="ltr"] .newsletter{
      color: #fff;
      display: flex;
      justify-content: space-between;
-     font-size: 23px;
+     font-size: 20px;
      text-transform: capitalize;
-     border-bottom: 2px solid #fff;
+     border-bottom: 1px solid #fff;
+     line-height: 1;
+
 }
  .search-box::placeholder{
      color: #fff;
@@ -434,6 +437,7 @@ html[dir="ltr"] .newsletter{
      justify-content: flex-start;
      padding: 0;
      list-style: none;
+     padding-top: 9px;
 }
  .icon{
      font-size: 20px;
@@ -533,12 +537,13 @@ html[dir="ltr"] .newsletter{
      text-transform: capitalize;
      text-decoration: none;
      display: block;
-     font-size: 15px;
-     font-weight: 500;
+     font-size: 14px;
+     font-weight: 400;
      text-align: center;
-     padding: 8px 0;
+     padding: 6px 0;
      margin: 0;
      transition: 0.5s;
+
 }
  .dropdown-content a:last-child{
      border-bottom: 0;
@@ -774,21 +779,21 @@ html[dir="ltr"] .newsletter{
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 /*/
  .banners-section{
-     padding: 31px 28px 109px;
+     padding: 30px 30px 109px;
 }
  .small-banners{
-     display: flex;
+     display: grid;
      grid-template-columns:repeat(2,auto);
      grid-gap: 30px;
      
      margin-bottom: 27px;
-     justify-content: space-between;
+    
 }
  .small-banners-2{
-     display: flex;
+     display: grid;
      grid-template-columns:auto auto ;
      grid-gap: 30px;
-     justify-content: space-between;
+     
 
 }
  .banner-block img{
@@ -832,12 +837,7 @@ html[dir="ltr"] .newsletter{
      transform: translateY(-50%);
      left: 484px;
 }
- .product-block{
-     background-color: rgb(245, 245, 245);
-     margin-bottom: 25px;
-     height: 263px;
-     position: relative;
-}
+
  .cover-on-hover{
      position: absolute;
      top: 0;
@@ -866,13 +866,13 @@ html[dir="ltr"] .newsletter{
 }
  .pro-name{
      font-size: 16px;
-     font-weight: 500;
+     font-weight: 400;
      color: #212121;
      display: flex;
      justify-content: center;
      overflow: hidden;
      transition: 0.5s;
-     margin: 0 0 10px ;
+     margin: 0 0 5px ;
      text-transform: capitalize;
 }
  .pro-name:hover{
@@ -884,7 +884,10 @@ html[dir="ltr"] .newsletter{
      justify-content: center;
      align-items: center;
      height: 263px;
+     
      overflow: hidden;
+     position: relative;
+     margin-bottom: 25px;
 }
  .product-image img{
      transition: 0.5s;
@@ -916,6 +919,7 @@ html[dir="ltr"] .newsletter{
      text-transform: capitalize;
      transition: 0.5s;
      display: none;
+     line-height: 1;
 }
  .add-cart:hover{
      background: var(--theme-color);
@@ -938,7 +942,7 @@ html[dir="ltr"] .newsletter{
      color: #dcdcdc;
 }
  .old{
-     font-weight: 500;
+     font-weight: 300;
      color: #757575;
 }
  .first-product-carousel{
@@ -979,6 +983,7 @@ html[dir="ltr"] .newsletter{
      font-weight: 500;
      transition: 0.5s;
      text-transform: uppercase;
+     line-height: 1;
 }
  .more:hover{
      background: #ee52a3;
@@ -1083,6 +1088,7 @@ html[dir="ltr"] .newsletter{
      font-size: 13px;
      font-weight: 500;
      color: #757575;
+     line-height: 1;
 }
  .newsletter-input::placeholder{
      font-size: 13px;
@@ -1110,6 +1116,7 @@ html[dir="ltr"] .newsletter{
      border: 0;
      outline: none;
      transition: 0.5s;
+     line-height: 1;
 }
  .newsletter-btn:hover{
      background: var(--theme-color);
@@ -1138,7 +1145,7 @@ html[dir="ltr"] .newsletter{
 }
  .social-icons i{
      color: rgb(83, 83, 83);
-     font-size: 15px;
+     font-size: 18px;
      transition: 0.5s;
 }
  .social-icons i:hover{
@@ -1162,6 +1169,7 @@ html[dir="ltr"] .newsletter{
      background: transparent;
      border: 0;
      padding: 0;
+     line-height: 1;
 }
  .footer-list{
      margin: 0;
@@ -1213,6 +1221,7 @@ html[dir="ltr"] .newsletter{
      margin: 0;
      width: 100%;
      text-align: center;
+     margin-bottom: 12px;
 }
  .up-arrow{
      display: none;
@@ -1224,7 +1233,7 @@ html[dir="ltr"] .newsletter{
  @media only screen and (max-width: 991px) {
      .nav-toggle {
          position: absolute;
-         top: 37px;
+         top: 43px;
          cursor: pointer;
     }
      .nav-toggle span{
@@ -1243,7 +1252,7 @@ html[dir="ltr"] .newsletter{
     }
      .search-in-mobile{
          position: absolute;
-         top: 40px;
+         top: 45px;
     }
      .search-box{
          margin: 0 15px;
@@ -1377,7 +1386,7 @@ html[dir="ltr"] .newsletter{
     }
      .small-banners{
          grid-template-columns: repeat(1,auto);
-         padding-top: 15px;
+         padding-top: 0;
          grid-gap: 15px;
     }
      .price{
@@ -1395,7 +1404,9 @@ html[dir="ltr"] .newsletter{
          order: 2;
     }
      .add-cart{
-         font-size: 15px;
+         font-size: 13px;
+         width: 119px;
+    height: 35px;
     }
      .big-banner{
          margin-top: 15px;
@@ -1545,9 +1556,9 @@ html[dir="ltr"] .newsletter{
          display: block;
     }
      .more{
-         width: 160px;
-         height: 45px;
-         font-size: 15px;
+         width: 135px;
+         height: 46px;
+         font-size: 16px;
          margin-bottom: 0;
     }
      .dropbtn{
@@ -1586,6 +1597,9 @@ html[dir="ltr"] .newsletter{
     }
     .close-button{
         font-size: 20px;
+    }
+    .product-image{
+        height: auto;
     }
    
 }
