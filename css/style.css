@@ -1031,6 +1031,7 @@ html[dir="ltr"] .newsletter{
      margin: 0 0 10px;
      color: var(--theme-color);
      font-family: "tajawal";
+     text-transform: capitalize;
 }
  .feature-slogen{
      font-size: 15px;
@@ -1060,6 +1061,7 @@ html[dir="ltr"] .newsletter{
      color: #000;
      font-weight: bold;
      margin: 0 0 15px;
+     text-transform: capitalize;
 }
  .news-slogen{
      font-size: 26px;
