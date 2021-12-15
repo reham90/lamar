@@ -1,62 +1,47 @@
-@font-face {
-    font-family: 'tajawal';
-    src: url('../font/Tajawal-ExtraLight.woff2') format('woff2'),
-        url('../font/Tajawal-ExtraLight.woff') format('woff'),
-        url('../font/Tajawal-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
+
 
 @font-face {
-    font-family: 'tajawal';
-    src: url('../font/Tajawal-Light.woff2') format('woff2'),
-        url('../font/Tajawal-Light.woff') format('woff'),
-        url('../font/Tajawal-Light.ttf') format('truetype');
+    font-family: 'OpenSans';
+    src: url('../font/OpenSans-Light.woff2') format('woff2'),
+        url('../font/OpenSans-Light.woff') format('woff'),
+        url('../font/OpenSans-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'tajawal';
-    src: url('../font/Tajawal-Regular.woff2') format('woff2'),
-        url('../font/Tajawal-Regular.woff') format('woff'),
-        url('../font/Tajawal-Regular.ttf') format('truetype');
+    font-family: 'OpenSans';
+    src: url('../font/OpenSans-Regular.woff2') format('woff2'),
+        url('../font/OpenSans-Regular.woff') format('woff'),
+        url('../font/OpenSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'tajawal';
-    src: url('../font/Tajawal-Medium.woff2') format('woff2'),
-        url('../font/Tajawal-Medium.woff') format('woff'),
-        url('../font/Tajawal-Medium.ttf') format('truetype');
+    font-family: 'OpenSans';
+    src: url('../font/OpenSans-Medium.woff2') format('woff2'),
+        url('../font/OpenSans-Medium.woff') format('woff'),
+        url('../font/OpenSans-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'tajawal';
-    src: url('../font/Tajawal-Bold.woff2') format('woff2'),
-        url('../font/Tajawal-Bold.woff') format('woff'),
-        url('../font/Tajawal-Bold.ttf') format('truetype');
+    font-family: 'OpenSans';
+    src: url('../font/OpenSans-Bold.woff2') format('woff2'),
+        url('../font/OpenSans-Bold.woff') format('woff'),
+        url('../font/OpenSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'tajawal';
-    src: url('../font/Tajawal-ExtraBold.woff2') format('woff2'),
-        url('../font/Tajawal-ExtraBold.woff') format('woff'),
-        url('../font/Tajawal-ExtraBold.ttf') format('truetype');
+    font-family: 'OpenSans';
+    src: url('../font/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('../font/OpenSans-ExtraBold.woff') format('woff'),
+        url('../font/OpenSans-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'tajawal';
-    src: url('../font/Tajawal-Black.woff2') format('woff2'),
-        url('../font/Tajawal-Black.woff') format('woff'),
-        url('../font/Tajawal-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
